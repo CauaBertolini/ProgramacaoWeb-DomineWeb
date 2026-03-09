@@ -6,13 +6,6 @@ body {
     flex-direction: column;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(248, 210, 152);
-    padding-bottom: 3rem;
-}
-
 footer {
     display: flex;
     justify-content: center;
@@ -21,16 +14,9 @@ footer {
     margin-top: 1rem;
 }
 
-h3 {
-    padding: 0rem 0rem 0rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0.1rem;
-            
-}
-
-p {
-    padding: 0rem 1rem 0.5rem 1rem;
-    margin: 1rem 0rem 0rem 0rem;
+h1 {
+    font-size: 1.5rem;
+    color: #4b566a;
 }
 
 a {
@@ -48,7 +34,8 @@ li {
 .imagem_campanha{
     display: flex;
     border: 6px solid;
-    border-color: rgb(179, 140, 83);
+    border-color: #C3C3AE;
+    width: 60%;
 }
 
 .menu {
@@ -70,5 +57,5 @@ li {
     display: flex;
     flex-direction: column;
     background-color: rgb(248, 210, 152);
-    padding-bottom: 3rem;
+    padding: 1rem;
 }
